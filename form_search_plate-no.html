@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Information</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+<body>
+    <div class="w3-container w3-center">
+        <h1 class="w3-text-dark-grey"><b>Search Place Number</b></h1>
+        <form action="#" method="post" id="search-form">
+            <div class="w3-row w3-margin-top w3-responsive w3-padding-small">
+
+                <!-- Search Input Field -->
+                <div class="w3-quarter w3-padding">
+                    <input type="text" name="plate_number" id="plate_number" placeholder="ທະບຽນລົດ" class="w3-input w3-border w3-round" required>
+                </div>
+
+                <!-- Search Type Dropdown -->
+                <div class="w3-quarter w3-padding">
+                    <select class="w3-select w3-border w3-round" name="text_color" id="text_color" required>
+                        <option value="" disabled selected>ເລືອກ ສີຕົວຫນັງສື</option>
+                        <option value="black-text">ດຳ</option>
+                        <option value="white-text">ຂາວ</option>
+                        <option value="blue-text">ຟ້າ</option>
+                    </select>
+                </div>
+
+                <!-- Plate Color Dropdown -->
+                <div class="w3-quarter w3-padding">
+                    <select class="w3-select w3-border w3-round" name="plate_color" id="plate_color" required>
+                        <option value="" disabled selected>ເລືອກ ສີປ້າຍ</option>
+                        <option value="white-plate">ຂາວ</option>
+                        <option value="yellow-plate">ເຫລືອງ</option>
+                        <option value="blue-plate">ຟ້າ</option>
+                        <option value="red-plate">ແດງ</option>
+                    </select>
+                </div>
+
+                <!-- Province Dropdown -->
+                <div class="w3-quarter w3-padding">
+                    <select class="w3-select w3-border w3-round" name="plate_province" id="plate_province" required>
+                        <option value="province" disabled selected>ແຂວງ</option>
+                        <option value="phongsaly">ຜົ້ງສາລີ</option>
+                        <option value="luangnumtha">ຫຼວງນ້ຳທາ</option>
+                        <option value="borkeo">ບໍແກ້ວ</option>
+                        <option value="oudomxay">ອຸດົມໄຊ</option>
+                        <option value="luangprabang">ຫຼວງພະບາງ</option>
+                        <option value="xiengkhuang">ຊຽງຂວາງ</option>
+                        <option value="xaiyabuly">ໄຊຍະບໍລີ</option>
+                        <option value="huaphan">ຫົວພັນ</option>
+                        <option value="vientiane_cap">ນະຄອນຫຼວງວຽງຈັນ / ກຳແພງນະຄອນ</option>
+                        <option value="vientiane_province">ວຽງຈັນ</option>
+                        <option value="xaisomboun">ໄຊສົມບູນ</option>
+                        <option value="borlikhamxay">ບໍລິຄຳໄຊ</option>
+                        <option value="khammuan">ຄຳມວນ</option>
+                        <option value="savannakhet">ສະຫວັນນະເຂດ</option>
+                        <option value="salavanh">ສາລະວັນ</option>
+                        <option value="champasak">ຈຳປາສັກ</option>
+                        <option value="sekong">ເຊກອງ</option>
+                        <option value="attapue">ອັດຕະປື</option>
+                    </select>
+                </div>
+
+                <!-- Search Button (Full Width on Small Screens) -->
+                <div class="w3-quarter w3-padding">
+                    <button type="submit" class="w3-button w3-teal w3-round w3-hover-blue w3-hover-shadow" style="width: 100%;">Search</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

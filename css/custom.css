@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap');
+body, h1, h2, h3, h4, h5, h6, p, button, div, form{
+    font-family: "Noto Sans Lao"!important ;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Claim Information  */
+label, input {
+    font-size: 1.2em;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-container label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: all 0.2s ease;
+    color: #555;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: -15px;
+    font-size: 12px;
+    color: #00bfae;
+}
+
+.goto-report a{
+    text-decoration: none;
+}
+.goto-report a:hover{
+    color: teal;
+}
+
+/* Form_search_policy-no_qr-no  */
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #009688;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #666;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+/* Report  */
+.w3-table, tr, td, th{
+    border: 1px solid #555;
+    font-size: .9em;
+}
+
+.fload-btn{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Information</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-center">
+    <h1><b>Claim Information</b></h1>
+
+    <form action="#" method="#">
+
+        <!-- Row_01 -->
+        <div class="w3-row w3-margin-top">
+
+            <!-- col_01 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="case_number" id="case_number" placeholder=" " required>
+                    <label for="case_number">ເລກທີຄະດີ</label>
+                </div>
+            </div>
+
+            <!-- col_02 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="date" name="incident_date" id="incident_date" placeholder=" " required>
+                    <label for="incident_date">ວ/ດ/ປ ເກີດເຫດ</label>
+                </div>
+            </div>
+
+            <!-- col_03 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="policy_number" id="policy_number" placeholder=" " required>
+                    <label for="policy_number">ເລກທີ່ປະກັນໄພ</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row_02 -->
+        <div class="w3-row w3-margin-top">
+
+            <!-- col_01 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="customer_plate" id="customer_plate" placeholder=" " required>
+                    <label for="place_number">ທະບຽນລົດລູກຄ້າ</label>
+                </div>
+            </div>
+
+            <!-- col_02 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="other_party_plate" id="other_party_plate" placeholder=" " required>
+                    <label for="place_number">ທະບຽນລົດຄູ່ກໍລະນີ</label>
+                </div>
+            </div>
+
+            <!-- col_03 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <div class="w3-cell w3-mobile" style="width: 500px;">
+                        <select class="w3-select w3-border w3-round" name="plate_province" id="plate_province" required>
+                            <option value="province" disabled selected>ແຂວງ</option>
+                            <option value="phongsaly">ຜົ້ງສາລີ</option>
+                            <option value="luangnumtha">ຫຼວງນ້ຳທາ</option>
+                            <option value="borkeo">ບໍແກ້ວ</option>
+                            <option value="oudomxay">ອຸດົມໄຊ</option>
+                            <option value="luangprabang">ຫຼວງພະບາງ</option>
+                            <option value="xiengkhuang">ຊຽງຂວາງ</option>
+                            <option value="xaiyabuly">ໄຊຍະບູລີ</option>
+                            <option value="huaphan">ຫົວພັນ</option>
+                            <option value="vientiane_cap">ນະຄອນຫຼວງວຽງຈັນ / ກຳແພງນະຄອນ</option>
+                            <option value="vientiane_province">ວຽງຈັນ</option>
+                            <option value="xaisomboun">ໄຊສົມບູນ</option>
+                            <option value="borlikhamxay">ບໍລິຄຳໄຊ</option>
+                            <option value="khammuan">ຄຳມວນ</option>
+                            <option value="savannakhet">ສະຫວັນນະເຂດ</option>
+                            <option value="salavanh">ສາລະວັນ</option>
+                            <option value="champasak">ຈຳປາສັກ</option>
+                            <option value="sekong">ເຊກອງ</option>
+                            <option value="attapue">ອັດຕະປື</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Row_03 -->
+        <div class="w3-row w3-margin-top">
+
+            <!-- col_01 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="case_location" id="case_location" placeholder=" " required>
+                    <label for="place_number">ສະຖານທີ່ເກີດເຫດ</label>
+                </div>
+            </div>
+
+            <!-- col_02 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <div class="w3-cell w3-mobile" style="width: 500px;">
+                        <select class="w3-select w3-cell w3-padding w3-round-medium" name="staff_service">
+                            <option value="" disable selected>ພະນັກງານຮັບແຈ້ງເຫດ</option>
+                            <option value="mr_sonephet_loy">ທ້າວ ສອນເພັດ ລອຍສຸຣີຍາ</option>
+                            <option value="mr_vilaphon_try">ທ້າວ ວິລະພົນ ຕຣີສະຫວັດ</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- col_03 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="our_service_staff" id="our_service_staff" placeholder=" " required>
+                    <label for="place_number">ພະນັກງານແກ້ອຸປະຕິເຫດ</label>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Row_04 -->
+        <div class="w3-row w3-margin-top">
+
+            <!-- col_01 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <div class="w3-cell w3-mobile" style="width: 500px;">
+                        <select class="w3-select w3-cell w3-padding w3-round-medium" name="Insuance_type">
+                            <option value="" disable selected>ປະເພດປະກັນໄພ</option>
+                            <option value="mr_sonephet_loy">ປະກັນໄພແບບບັງຄັບ</option>
+                            <option value="mr_sonephet_loy">ປະເພດ 1</option>
+                            <option value="mr_sonephet_loy">ປະເພດ 2</option>
+                            <option value="mr_sonephet_loy">ປະເພດ 3</option>
+                            <option value="mr_sonephet_loy">ປະເພດ 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- col_02 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="date" name="start_date" id="start_date" placeholder=" " required>
+                    <label for="incident_date">ວ/ດ/ປ ເປີດ</label>
+                </div>
+            </div>
+
+            <!-- col_03 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="flowing_step" id="flowing_step" placeholder=" " required>
+                    <label for="place_number">ຢູ່ໃນຂັ້ນຕອນ</label>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Row_05 -->
+        <div class="w3-row w3-margin-top">
+
+            <!-- col_01 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="paid_to_customer" id="paid_to_customer" placeholder=" " required>
+                    <label for="place_number">ບໍລິສັດຈ່າຍລູກຄ້າ</label>
+                </div>
+            </div>
+
+            <!-- col_02 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="paid_to_other_party" id="paid_to_other_party" placeholder=" " required>
+                    <label for="place_number">ບໍລິສັດຈ່າຍຄູ່ກໍລະນີ</label>
+                </div>
+            </div>
+
+            <!-- col_03 -->
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="date" name="end_date" id="end_date" placeholder=" " required>
+                    <label for="incident_date">ວ/ດ/ປ ປີດ</label>
+                </div>
+            </div>
+
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="text" name="Reserve" id="Reserve" placeholder=" " required>
+                    <label for="incident_date">Reserve</label>
+                </div>
+            </div>
+
+            <div class="w3-third w3-padding">
+                <div class="input-container">
+                    <input type="file" name="images[]" accept="image/*" id="upload_image" required multiple>
+                    <label for="incident_date">ອັບໂຫລດຮູບພາບຂອງອຸປະຕິເຫດ (ບໍ່ເກີນ 10 ຮູບ)</label>
+                </div>
+            </div>
+
+        </div>
+        <p>ກະລຸນາກວດສອບຂໍ້ມູນໃຫ້ຖືກຕ້ອງທຸກຕັ້ງ ກ່ອນບັນທຶກຂໍ້ມູນ</p>
+        <!-- Submit button -->
+        <div class="w3-row w3-margin-top">
+            <button type="submit" class="w3-button w3-teal w3-block w3-padding-large w3-round" style="width: 500px;">ບັນທຶກ</button>
+        </div> 
+    </form>
+    <div class="goto-report w3-center w3-bottom">
+        <p>
+            <a class="w3-padding" href="report.html">Report</a>
+            <a class="w3-padding" href="form_search_policy-no_qr-no.html">Form Search Policy Number or QR Number</a>
+            <a class="w3-padding" href="form_search_plate-no.html">Form Search Plate Number</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

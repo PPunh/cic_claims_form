@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Information</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+<body>
+    <div class="w3-container w3-center">
+        <h1 class="w3-text-dark-grey"><b>Search policy number or QR number</b></h1>
+        <form action="#" method="post" id="search-form">
+            <div class="w3-row w3-margin-top">
+                <!-- Search Type Dropdown -->
+                <div class="w3-third w3-padding">
+                    <select class="w3-select w3-round-medium w3-border" name="search_type" id="search_type" required>
+                        <option value="" disabled selected>ເລືອກປະເພດການຄົ້ນຫາ</option>
+                        <option value="policy_no">ເລກທີ່ສັນຍາປະກັນໄພ</option>
+                        <option value="qr_no">ເລກ QR</option>
+                    </select>
+                </div>
+                
+                <!-- Search Input Field -->
+                <div class="w3-third w3-padding">
+                    <div class="input-container">
+                        <input type="text" name="search_by_policy_number-or-qr_number" id="search_by_policy_number-or-qr_number" placeholder=" " class="w3-border" required>
+                        <label for="search_number">ເລກທີ່ສັນຍາປະກັນໄພ ຫລື ເລກ QR</label>
+                    </div>
+                </div>
+                
+                <!-- Search Button -->
+                <div class="w3-third w3-padding">
+                    <button type="submit" class="w3-button w3-teal w3-round w3-hover-blue w3-hover-shadow" style="width: 100%;">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
