@@ -44,7 +44,7 @@
         <mxCell id="Oh-qaHLFsME60FFSvOc_-7" value="Insert Claim Case" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto sans lao;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="420" y="200" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Oh-qaHLFsME60FFSvOc_-8" value="Report" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto sans lao;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="Oh-qaHLFsME60FFSvOc_-8" value="Report (Views only)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto sans lao;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="600" y="205" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Oh-qaHLFsME60FFSvOc_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oh-qaHLFsME60FFSvOc_-39" target="Oh-qaHLFsME60FFSvOc_-41">
